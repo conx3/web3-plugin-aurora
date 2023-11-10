@@ -1,12 +1,12 @@
 {
-  "name": "@conx3/web3-plugin-near",
+  "name": "@conx3/web3-plugin-aurora",
   "version": "1.0.0",
   "description": "web3.js plugin for Near Protocol",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "homepage": "https://github.com/conx3/web3-plugin-near#readme",
+  "homepage": "https://github.com/conx3/web3-plugin-aurora#readme",
   "bugs": {
-    "url": "https://github.com/conx3/web3-plugin-near/issues"
+    "url": "https://github.com/conx3/web3-plugin-aurora/issues"
   },
   "scripts": {
     "lint": "eslint '{src,test}/**/*.ts'",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:conx3/web3-plugin-near.git"
+    "url": "git@github.com:conx3/web3-plugin-aurora.git"
   },
   "dependencies": {
     "@near-js/transactions": "^0.2.1",

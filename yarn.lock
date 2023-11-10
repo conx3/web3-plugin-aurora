@@ -321,6 +321,15 @@
     eslint-plugin-prettier "^4.2.1"
     prettier "^2.8.7"
 
+"@conx3/web3-plugin-near@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@conx3/web3-plugin-near/-/web3-plugin-near-1.0.0.tgz#ab3ba1a2ad494daa28fac5f1b4c30a5699b1e86b"
+  integrity sha512-vv7lat/XrzJElCCOQJf6whVm6dAYrwZIFem/KKdhZ0qkB8tmSXGyR/aH4YS3NWVUDZgYOHehFjIWEhvcqiuCPA==
+  dependencies:
+    "@near-js/transactions" "^0.2.1"
+    "@near-js/types" "^0.0.4"
+    "@near-js/utils" "^0.0.4"
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz"
