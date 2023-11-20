@@ -1,7 +1,9 @@
 {
   "name": "@conx3/web3-plugin-aurora",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "web3.js plugin for Near Protocol",
+  "author": "Muhammad Altabba",
+	"license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "homepage": "https://github.com/conx3/web3-plugin-aurora#readme",
