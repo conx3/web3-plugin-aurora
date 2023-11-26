@@ -33,21 +33,10 @@ aurora();
 
 You can play with the npm package online at: https://codesandbox.io/p/sandbox/testing-web3-plugin-aurora-v7249s
 
-Supported RPC Methods:
+Supported RPC Methods
 ------------
 
 Here are all RPC methods and how to call them using the plugin. The original table of RPC methods is from: https://doc.aurora.dev/evm/rpc/ :
-
-
-<html>
-<head>
-<style>
-  .left-border {
-    border-left: 2px solid
-  }
-</style>
-</head>
-<body>
 
 <table style="width:100%">
   <tr>
