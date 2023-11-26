@@ -1,7 +1,7 @@
 {
   "name": "@conx3/web3-plugin-aurora",
   "version": "1.0.1",
-  "description": "web3.js plugin for Near Protocol",
+  "description": "web3.js plugin for Aurora Engine running atop NEAR protocol",
   "author": "Muhammad Altabba",
 	"license": "MIT",
   "main": "lib/index.js",
