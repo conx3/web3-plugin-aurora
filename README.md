@@ -52,15 +52,13 @@ Here are all RPC methods and how to call them using the plugin. The original tab
 <table style="width:100%">
   <tr>
     <th style="max-width:20%">Method</th>
-    <th>Status</th>
-    <th>Notes</th>
+    <th></th>
     <th class="left-border">How to call</th>
     <th>Comments</th>
   </tr>
   <tr>
     <td>web3_clientVersion</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border">
       <code>web3.aurora.web3<wbr />.clientVersion()</code>
     </td>
@@ -69,49 +67,42 @@ Here are all RPC methods and how to call them using the plugin. The original tab
   <tr>
     <td>web3_sha3</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.web3<wbr />.sha3<wbr />(value)</code></td>
     <td>It supposes to provide the same result as calling <code>web3.utils.sha3</code></td>
   </tr>
   <tr>
     <td>net_listening</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.net<wbr />.isListening()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>net_peerCount</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.net<wbr />.getPeerCount()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>net_version</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.net<wbr />.getId()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_accounts</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getAccounts()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_blockNumber</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getBlockNumber()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_call</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.call({ <br />
       &nbsp;&nbsp;to: contractAddress,<br />
       &nbsp;&nbsp;input: '0x...')<br />
@@ -121,448 +112,391 @@ Here are all RPC methods and how to call them using the plugin. The original tab
   <tr>
     <td>eth_chainId</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getChainId()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_coinbase</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getCoinbase()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_compileLLL</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_compileSerpent</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_compileSolidity</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_estimateGas</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.estimateGas(transaction)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_gasPrice</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getGasPrice()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getBalance</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getBalance<wbr />(address)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getBlock<wbr />ByHash</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getBlock<wbr />(blockHash)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getBlock<wbr />ByNumber</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getBlock<wbr />(blockNumber)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getBlock<wbr />Transaction<wbr />Count<wbr />ByHash</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getBlock<wbr />TransactionCount(blockHash)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getBlock<wbr />Transaction<wbr />Count<wbr />ByNumber</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getBlock<wbr />TransactionCount<wbr />(blockNumber)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getCode</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getCode(address)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getCompilers</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getCompilers()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getFilter<wbr />Changes</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getFilterChanges<wbr />(filterId)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getFilter<wbr />Logs</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getFilterLogs<wbr />(filterId)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getLogs</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getPastLogs(filter)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getProof</td>
-    <td>❌</td> 
-    <td style="font-size: x-small">EIP-1186</td>
+    <td>❌</td>
     <td class="left-border"><code></code></td>
-    <td></td>
+    <td>EIP-1186</td>
   </tr>
   <tr>
     <td>eth_getStorageAt</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.getStorageAt<wbr />(address, storageSlot)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />ByBlockHash<wbr />AndIndex</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransaction<wbr />FromBlock<wbr />(blockHash, transactionIndex)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />ByBlockNumber<wbr />AndIndex</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransaction<wbr />FromBlock<wbr />(blockNumber, transactionIndex)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />ByHash</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransaction<wbr />(transactionHash)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />Count</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransactionCount<wbr />(address [, block])</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />Receipt</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransactionReceipt<wbr />(transactionHash)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getUncleBy<wbr />BlockHash<wbr />AndIndex</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getUncle<wbr />(blockHash, uncleIndex)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getUncleBy<wbr />BlockNumber<wbr />AndIndex</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getUncle<wbr />(blockNumberOrTag, uncleIndex)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getUncleCount<wbr />ByBlockHash</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getBlockUncleCount<wbr />(blockHash)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getUncleCount<wbr />ByBlockNumber</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getBlockUncleCount<wbr />(blockNumber)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_getWork</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_hashrate</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getHashRate()</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_mining</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.isMining()</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_newBlockFilter</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />newBlockFilter()</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_newFilter</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />newFilter()</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_newPending<wbr />TransactionFilter</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />newPending<wbr />Transaction<wbr />Filter()</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_pending<wbr />Transactions</td>
     <td>✅</td>
-    <td style="font-size: x-small">Undocumented</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getPending<wbr />Transactions()</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_protocolVersion</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getProtocol<wbr />Version()</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_sendRaw<wbr />Transaction</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />sendSigned<wbr />Transaction(tx)</code></td>
     <td><code></code></td>
   </tr>
   <tr>
     <td>eth_sendTransaction</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_sign</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_signTransaction</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_signTypedData</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_submitHashrate</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_submitWork</td>
     <td>❌</td>
-    <td style="font-size: x-small">Unsupported</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Unsupported</td>
   </tr>
   <tr>
     <td>eth_syncing</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.isSyncing()</code></td>
     <td></td>
   </tr>
   <tr>
     <td>eth_uninstall<wbr />Filter</td>
     <td>✅</td>
-    <td></td>
     <td class="left-border"><code>web3.aurora.eth<wbr />.uninstallFilter(filterId)</code></td>
     <td></td>
   </tr>
   <tr>
     <td>db_getHex</td>
     <td>❌</td>
-    <td style="font-size: x-small">Deprecated</td>
     <td class="left-border"><code></code></td>
-    <td></td>
+    <td>Deprecated</td>
   </tr>
   <tr>
     <td>db_getString</td>
     <td>❌</td>
-    <td style="font-size: x-small">Deprecated</td>
     <td class="left-border"><code></code></td>
-    <td></td>
+    <td>Deprecated</td>
   </tr>
   <tr>
     <td>db_putHex</td>
     <td>❌</td>
-    <td style="font-size: x-small">Deprecated</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Deprecated</td>
   </tr>
   <tr>
     <td>db_putString</td>
     <td>❌</td>
-    <td style="font-size: x-small">Deprecated</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Deprecated</td>
   </tr>
   <tr>
     <td>shh_addToGroup</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_getFilter<wbr />Changes</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_getMessages</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_hasIdentity</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_newFilter</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_newGroup</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_newIdentity</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_post</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_uninstallFilter</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>shh_version</td>
     <td>❌</td>
-    <td style="font-size: x-small">Discontinued</td>
     <td class="left-border"></td>
-    <td></td>
+    <td>Discontinued</td>
   </tr>
   <tr>
     <td>txpool_content</td>
     <td>✅</td>
-    <td style="font-size: x-small">Geth extension</td>
     <td class="left-border"><code>web3.aurora.txpool.<wbr />content()</code></td>
     <td>
+    Geth extension
+    <br />
     Not available (issue: <a href='https://github.com/aurora-is-near/doc.aurora.dev/issues/94'>doc.aurora.dev/issues/94</a>)
     </td>
   </tr>  <tr>
     <td>txpool_inspect</td>
     <td>✅</td>
-    <td style="font-size: x-small">Geth extension</td>
     <td class="left-border"><code>web3.aurora.txpool.<wbr />inspect()</code></td>
     <td>
+    Geth extension
+    <br />
     Not available (issue: <a href='https://github.com/aurora-is-near/doc.aurora.dev/issues/94'>doc.aurora.dev/issues/94</a>)
     </td>
   </tr>
   <tr>
     <td>txpool_status</td>
     <td>✅</td>
-    <td style="font-size: x-small">Geth extension</td>
     <td class="left-border"><code>web3.aurora.txpool.<wbr />status()</code></td>
     <td>
+    Geth extension
+    <br />
     Not available (issue: <a href='https://github.com/aurora-is-near/doc.aurora.dev/issues/94'>doc.aurora.dev/issues/94</a>)
     </td>
   </tr>
   <tr>
     <td>parity_pending<wbr />Transactions</td>
     <td>✅</td>
-    <td style="font-size: x-small">Parity extension</td> 
     <td class="left-border"><code>web3.aurora.parity.<wbr />pendingTransactions()</code></td>
-    <td></td>
+    <td>Parity extension</td> 
   </tr>
 </table>
 
