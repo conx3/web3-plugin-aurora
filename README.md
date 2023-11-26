@@ -214,7 +214,7 @@ Here are all RPC methods and how to call them using the plugin. The original tab
   <tr>
     <td>eth_getProof</td>
     <td>❌</td>
-    <td class="left-border"><code></code></td>
+    <td class="left-border"></td>
     <td>EIP-1186</td>
   </tr>
   <tr>
@@ -227,55 +227,55 @@ Here are all RPC methods and how to call them using the plugin. The original tab
     <td>eth_getTransaction<wbr />ByBlockHash<wbr />AndIndex</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransaction<wbr />FromBlock<wbr />(blockHash, transactionIndex)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />ByBlockNumber<wbr />AndIndex</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransaction<wbr />FromBlock<wbr />(blockNumber, transactionIndex)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />ByHash</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransaction<wbr />(transactionHash)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />Count</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransactionCount<wbr />(address [, block])</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getTransaction<wbr />Receipt</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getTransactionReceipt<wbr />(transactionHash)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getUncleBy<wbr />BlockHash<wbr />AndIndex</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getUncle<wbr />(blockHash, uncleIndex)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getUncleBy<wbr />BlockNumber<wbr />AndIndex</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getUncle<wbr />(blockNumberOrTag, uncleIndex)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getUncleCount<wbr />ByBlockHash</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getBlockUncleCount<wbr />(blockHash)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getUncleCount<wbr />ByBlockNumber</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getBlockUncleCount<wbr />(blockNumber)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_getWork</td>
@@ -287,49 +287,49 @@ Here are all RPC methods and how to call them using the plugin. The original tab
     <td>eth_hashrate</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getHashRate()</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_mining</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.isMining()</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_newBlockFilter</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />newBlockFilter()</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_newFilter</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />newFilter()</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_newPending<wbr />TransactionFilter</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />newPending<wbr />Transaction<wbr />Filter()</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_pending<wbr />Transactions</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getPending<wbr />Transactions()</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_protocolVersion</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />getProtocol<wbr />Version()</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_sendRaw<wbr />Transaction</td>
     <td>✅</td>
     <td class="left-border"><code>web3.aurora.eth.<wbr />sendSigned<wbr />Transaction(tx)</code></td>
-    <td><code></code></td>
+    <td></td>
   </tr>
   <tr>
     <td>eth_sendTransaction</td>
@@ -382,13 +382,13 @@ Here are all RPC methods and how to call them using the plugin. The original tab
   <tr>
     <td>db_getHex</td>
     <td>❌</td>
-    <td class="left-border"><code></code></td>
+    <td class="left-border"></td>
     <td>Deprecated</td>
   </tr>
   <tr>
     <td>db_getString</td>
     <td>❌</td>
-    <td class="left-border"><code></code></td>
+    <td class="left-border"></td>
     <td>Deprecated</td>
   </tr>
   <tr>
