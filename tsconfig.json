@@ -3,11 +3,7 @@
 		"baseUrl": "./",
 		"resolveJsonModule": true,
 		"forceConsistentCasingInFileNames": true,
-		"lib": [
-			"es2015",
-			"esnext",
-			"dom"
-		],
+		"lib": ["es2015", "esnext", "dom"],
 		"target": "es2015",
 		"module": "commonjs",
 		"alwaysStrict": true,
