@@ -1,6 +1,8 @@
 web3.js plugin for Aurora NEAR engine
 ===========
 
+[![Dependency Status][downloads-image]][npm-url]
+
 This is an npm package containing a web3.js plugin for Aurora NEAR engine.
 
 Aurora is an EVM-compatible blockchain built as a smart contract atop NEAR blockchain. This plugin would leverage Aurora custom RPC methods (https://doc.aurora.dev/evm/rpc/). And it also disable the unsupported methods.
@@ -568,3 +570,7 @@ Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 And for your proposed changes, please make sure to add and/or update tests as needed.
+
+
+[npm-url]: https://npmjs.org/package/@conx3/web3-plugin-near
+[downloads-image]: https://img.shields.io/npm/dm/@conx3/web3-plugin-near?label=npm%20downloads
