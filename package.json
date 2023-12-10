@@ -31,12 +31,7 @@
 		"type": "git",
 		"url": "git@github.com:conx3/web3-plugin-aurora.git"
 	},
-	"dependencies": {
-		"@near-js/transactions": "^0.2.1",
-		"@near-js/types": "^0.0.4",
-		"@near-js/utils": "^0.0.4",
-		"bs58": "^5.0.0"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@chainsafe/eslint-config": "^2.0.0",
 		"@conx3/web3-plugin-near": "^1.0.4",

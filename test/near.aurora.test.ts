@@ -15,11 +15,8 @@ import { AuroraPlugin } from '../src';
 //    The Testnet Websocket endpoint is at: wss://testnet.aurora.dev
 
 describe('web3.near.aurora Tests', () => {
-	let web3: Web3;
-
+	let web3 = new Web3('https://mainnet.aurora.dev');
 	beforeAll(() => {
-		web3 = new Web3('https://mainnet.aurora.dev');
-
 		// @TODO: the way to register the plugins should be further simplified
 		const nearPlugin = new NearPlugin(web3.provider);
 		nearPlugin.registerPlugin(new AuroraPlugin(web3.provider));
